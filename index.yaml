@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  chkk-cluster-agent:
+  - apiVersion: v2
+    appVersion: v1.0.35
+    created: "2022-09-14T11:40:11.128387-07:00"
+    description: Chkk cluster agent Helm chart
+    digest: dcfa78860e0c3854355416b42c328fbd3dc5ec227207dacb3c5fcad2d288d4e0
+    name: chkk-cluster-agent
+    urls:
+    - https://helm.chkk.io/chkk-cluster-agent-v1.0.35.tgz
+    version: v1.0.35
+  - apiVersion: v2
+    appVersion: v1.0.34
+    created: "2022-09-14T11:40:11.127993-07:00"
+    description: Chkk cluster agent Helm chart
+    digest: 7791aba5cd214457e5415680cafca0939bac1457e741fb8792e8c8e761a0a7fa
+    name: chkk-cluster-agent
+    urls:
+    - https://helm.chkk.io/chkk-cluster-agent-v1.0.34.tgz
+    version: v1.0.34
+generated: "2022-09-14T11:40:11.127217-07:00"
