@@ -2,8 +2,17 @@ apiVersion: v1
 entries:
   chkk-cluster-agent:
   - apiVersion: v2
+    appVersion: v0.1.3
+    created: "2023-02-21T11:21:21.380162+05:00"
+    description: Chkk cluster agent Helm chart
+    digest: 4a1bcc8cfbc80434f6cb574351d80377d5d0772369ad43e18ebd7250ac8b8d42
+    name: chkk-cluster-agent
+    urls:
+    - https://helm.chkk.io/chkk-cluster-agent-v0.1.4.tgz
+    version: v0.1.4
+  - apiVersion: v2
     appVersion: v0.1.2
-    created: "2022-12-01T16:01:59.344991+05:00"
+    created: "2023-02-21T11:21:21.379606+05:00"
     description: Chkk cluster agent Helm chart
     digest: 6c48e787977dcf54a9257ed53cb1fa0198f06bebb4df83b9241e07ac610805fd
     name: chkk-cluster-agent
@@ -12,7 +21,7 @@ entries:
     version: v0.1.3
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2022-12-01T16:01:59.344634+05:00"
+    created: "2023-02-21T11:21:21.379215+05:00"
     description: Chkk cluster agent Helm chart
     digest: 848f42205eb001b89b3e769db0aa766aec2c72523627f28202a87a326891dda4
     name: chkk-cluster-agent
@@ -21,7 +30,7 @@ entries:
     version: v0.1.2
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2022-12-01T16:01:59.344302+05:00"
+    created: "2023-02-21T11:21:21.378789+05:00"
     description: Chkk cluster agent Helm chart
     digest: e5b49557679eab7da8d91f5340375e577e5828f14b874a4fc7fd762d1cb49de1
     name: chkk-cluster-agent
@@ -30,8 +39,23 @@ entries:
     version: v0.1.1
   chkk-operator:
   - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2023-02-21T11:21:21.380865+05:00"
+    description: A Helm chart to deploy the Chkk Operator
+    digest: 6f9ebe825b712193af8b9252c6188c1f60b29ea4170ecfccc57f011f5c2e43e6
+    home: https://www.chkk.io
+    keywords:
+    - kubernetes
+    maintainers:
+    - email: support@chkk.io
+      name: Chkk
+    name: chkk-operator
+    urls:
+    - https://helm.chkk.io/chkk-operator-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
     appVersion: 0.0.2
-    created: "2022-12-01T16:01:59.345452+05:00"
+    created: "2023-02-21T11:21:21.380581+05:00"
     description: A Helm chart to deploy the Chkk Operator
     digest: f7fb4597d66615fe87a4a4ff6805f1939e59771e5741c760a93b2afaf4b4b8bb
     home: https://www.chkk.io
@@ -46,7 +70,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-12-01T16:01:59.345247+05:00"
+    created: "2023-02-21T11:21:21.38039+05:00"
     description: A Helm chart to deploy the Chkk Operator
     digest: 9b8d5f1ec42d95305769294a9e095f76963e80bf705391ea03f119026a9d3faa
     home: https://www.chkk.io
@@ -59,4 +83,4 @@ entries:
     urls:
     - https://helm.chkk.io/chkk-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2022-12-01T16:01:59.343577+05:00"
+generated: "2023-02-21T11:21:21.377959+05:00"
