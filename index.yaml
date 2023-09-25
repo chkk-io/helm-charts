@@ -84,6 +84,21 @@ entries:
     version: v0.1.1
   chkk-operator:
   - apiVersion: v2
+    appVersion: 0.0.7
+    created: "2023-09-25T14:41:52.314488-07:00"
+    description: A Helm chart to deploy the Chkk Operator
+    digest: b2701aefd20eda05b4cf19a673f4e6e92b7b104f29704e3baeab10d70e995393
+    home: https://www.chkk.io
+    keywords:
+    - kubernetes
+    maintainers:
+    - email: support@chkk.io
+      name: Chkk
+    name: chkk-operator
+    urls:
+    - https://helm.chkk.io/chkk-operator-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
     appVersion: 0.0.6
     created: "2023-09-19T00:07:47.214053+05:00"
     description: A Helm chart to deploy the Chkk Operator
