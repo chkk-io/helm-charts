@@ -11,4 +11,4 @@ Search Chkk Helm repo for the available charts
 helm search repo chkk
 ```
 
-Made with :orange_heart: by [Chkk](https://chkk.io/)
+Made with 🧡  by [Chkk](https://chkk.io/)
