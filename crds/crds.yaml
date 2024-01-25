@@ -4100,6 +4100,11 @@ spec:
               global:
                 description: Global Chkk settings to configure the agent
                 properties:
+                  clusterEnvironment:
+                    description: ClusterEnvironment sets cluster environment.
+                    maxLength: 100
+                    minLength: 1
+                    type: string
                   clusterName:
                     description: ClusterName sets a unique cluster name .
                     maxLength: 100

@@ -1,3 +1,4 @@
+---
 apiVersion: v1
 kind: ServiceAccount
 metadata:
@@ -468,7 +469,7 @@ spec:
               secretKeyRef:
                 name: chkk-operator
                 key: CHKK_ACCESS_TOKEN
-        image: "public.ecr.aws/chkk/operator:v0.0.7"
+        image: "public.ecr.aws/chkk/operator:v0.0.9"
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
