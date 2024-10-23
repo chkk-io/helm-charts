@@ -468,7 +468,7 @@ spec:
               secretKeyRef:
                 name: chkk-operator
                 key: CHKK_ACCESS_TOKEN
-        image: "public.ecr.aws/chkk/operator:v0.0.12"
+        image: "public.ecr.aws/chkk/operator:v0.0.13"
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
